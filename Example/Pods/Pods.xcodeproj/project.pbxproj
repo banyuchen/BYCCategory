@@ -30,30 +30,30 @@
 		247B6F00BF6B8B8D43D04FB9C0C12DC6 /* KWSharedExampleRegistry.m in Sources */ = {isa = PBXBuildFile; fileRef = DA69A819625BAFD76FFD2DF5406309E6 /* KWSharedExampleRegistry.m */; };
 		24930B7D3C688B27639E111B3407DEC5 /* BYCCategory-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 55A7012580FDB5E7CB1C87B6FB6E3181 /* BYCCategory-dummy.m */; };
 		24DEF3AF3296F229268D80B50E433240 /* UIImage+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = B468CB6885EE0346B5795A6239CAD4D4 /* UIImage+Snapshot.m */; };
-		250E69B022C755C5000FAF64 /* NSString+NRCString.h in Headers */ = {isa = PBXBuildFile; fileRef = 250E699122C755C5000FAF64 /* NSString+NRCString.h */; };
-		250E69B122C755C5000FAF64 /* NSString+NRCString.m in Sources */ = {isa = PBXBuildFile; fileRef = 250E699222C755C5000FAF64 /* NSString+NRCString.m */; };
-		250E69B222C755C5000FAF64 /* UILabel+NRCLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 250E699422C755C5000FAF64 /* UILabel+NRCLabel.m */; };
-		250E69B322C755C5000FAF64 /* UILabel+NRCLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = 250E699522C755C5000FAF64 /* UILabel+NRCLabel.h */; };
-		250E69B422C755C5000FAF64 /* UIImageView+NRCImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 250E699722C755C5000FAF64 /* UIImageView+NRCImageView.m */; };
-		250E69B522C755C5000FAF64 /* UIImageView+NRCImageView.h in Headers */ = {isa = PBXBuildFile; fileRef = 250E699822C755C5000FAF64 /* UIImageView+NRCImageView.h */; };
-		250E69B622C755C5000FAF64 /* UIView+WZAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = 250E699A22C755C5000FAF64 /* UIView+WZAlert.m */; };
-		250E69B722C755C5000FAF64 /* UIView+WZToast.m in Sources */ = {isa = PBXBuildFile; fileRef = 250E699B22C755C5000FAF64 /* UIView+WZToast.m */; };
-		250E69B822C755C5000FAF64 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 250E699C22C755C5000FAF64 /* MBProgressHUD.m */; };
-		250E69B922C755C5000FAF64 /* UIView+NRCFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 250E699D22C755C5000FAF64 /* UIView+NRCFrame.m */; };
-		250E69BA22C755C5000FAF64 /* UIVew+NRCView.m in Sources */ = {isa = PBXBuildFile; fileRef = 250E699E22C755C5000FAF64 /* UIVew+NRCView.m */; };
-		250E69BB22C755C5000FAF64 /* MBProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = 250E699F22C755C5000FAF64 /* MBProgressHUD.h */; };
-		250E69BC22C755C5000FAF64 /* UIView+WZToast.h in Headers */ = {isa = PBXBuildFile; fileRef = 250E69A022C755C5000FAF64 /* UIView+WZToast.h */; };
-		250E69BD22C755C5000FAF64 /* UIView+WZAlert.h in Headers */ = {isa = PBXBuildFile; fileRef = 250E69A122C755C5000FAF64 /* UIView+WZAlert.h */; };
-		250E69BE22C755C5000FAF64 /* UIView+NRCFrame.h in Headers */ = {isa = PBXBuildFile; fileRef = 250E69A222C755C5000FAF64 /* UIView+NRCFrame.h */; };
-		250E69BF22C755C5000FAF64 /* UIVew+NRCView.h in Headers */ = {isa = PBXBuildFile; fileRef = 250E69A322C755C5000FAF64 /* UIVew+NRCView.h */; };
-		250E69C022C755C5000FAF64 /* UIButton+NRCButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 250E69A522C755C5000FAF64 /* UIButton+NRCButton.h */; };
-		250E69C122C755C5000FAF64 /* UIButton+NRCButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 250E69A622C755C5000FAF64 /* UIButton+NRCButton.m */; };
-		250E69C222C755C5000FAF64 /* UIImage+NRCImage.h in Headers */ = {isa = PBXBuildFile; fileRef = 250E69A822C755C5000FAF64 /* UIImage+NRCImage.h */; };
-		250E69C322C755C5000FAF64 /* UIImage+NRCImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 250E69A922C755C5000FAF64 /* UIImage+NRCImage.m */; };
-		250E69C422C755C5000FAF64 /* NSObject+NRCObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 250E69AB22C755C5000FAF64 /* NSObject+NRCObject.h */; };
-		250E69C522C755C5000FAF64 /* NSObject+NRCObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 250E69AC22C755C5000FAF64 /* NSObject+NRCObject.m */; };
-		250E69C622C755C5000FAF64 /* UIColor+NRCColor.h in Headers */ = {isa = PBXBuildFile; fileRef = 250E69AE22C755C5000FAF64 /* UIColor+NRCColor.h */; };
-		250E69C722C755C5000FAF64 /* UIColor+NRCColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 250E69AF22C755C5000FAF64 /* UIColor+NRCColor.m */; };
+		250E69F022C75795000FAF64 /* UILabel+NRCLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 250E69D122C75794000FAF64 /* UILabel+NRCLabel.m */; };
+		250E69F122C75795000FAF64 /* UILabel+NRCLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = 250E69D222C75794000FAF64 /* UILabel+NRCLabel.h */; };
+		250E69F222C75795000FAF64 /* UIColor+NRCColor.h in Headers */ = {isa = PBXBuildFile; fileRef = 250E69D422C75795000FAF64 /* UIColor+NRCColor.h */; };
+		250E69F322C75795000FAF64 /* UIColor+NRCColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 250E69D522C75795000FAF64 /* UIColor+NRCColor.m */; };
+		250E69F422C75795000FAF64 /* UIButton+NRCButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 250E69D722C75795000FAF64 /* UIButton+NRCButton.h */; };
+		250E69F522C75795000FAF64 /* UIButton+NRCButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 250E69D822C75795000FAF64 /* UIButton+NRCButton.m */; };
+		250E69F622C75795000FAF64 /* UIImageView+NRCImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 250E69DA22C75795000FAF64 /* UIImageView+NRCImageView.m */; };
+		250E69F722C75795000FAF64 /* UIImageView+NRCImageView.h in Headers */ = {isa = PBXBuildFile; fileRef = 250E69DB22C75795000FAF64 /* UIImageView+NRCImageView.h */; };
+		250E69F822C75795000FAF64 /* UIImage+NRCImage.h in Headers */ = {isa = PBXBuildFile; fileRef = 250E69DD22C75795000FAF64 /* UIImage+NRCImage.h */; };
+		250E69F922C75795000FAF64 /* UIImage+NRCImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 250E69DE22C75795000FAF64 /* UIImage+NRCImage.m */; };
+		250E69FA22C75795000FAF64 /* NSObject+NRCObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 250E69E022C75795000FAF64 /* NSObject+NRCObject.h */; };
+		250E69FB22C75795000FAF64 /* NSObject+NRCObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 250E69E122C75795000FAF64 /* NSObject+NRCObject.m */; };
+		250E69FC22C75795000FAF64 /* NSString+NRCString.h in Headers */ = {isa = PBXBuildFile; fileRef = 250E69E322C75795000FAF64 /* NSString+NRCString.h */; };
+		250E69FD22C75795000FAF64 /* NSString+NRCString.m in Sources */ = {isa = PBXBuildFile; fileRef = 250E69E422C75795000FAF64 /* NSString+NRCString.m */; };
+		250E69FE22C75795000FAF64 /* UIView+WZAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = 250E69E622C75795000FAF64 /* UIView+WZAlert.m */; };
+		250E69FF22C75795000FAF64 /* UIView+WZToast.m in Sources */ = {isa = PBXBuildFile; fileRef = 250E69E722C75795000FAF64 /* UIView+WZToast.m */; };
+		250E6A0022C75795000FAF64 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 250E69E822C75795000FAF64 /* MBProgressHUD.m */; };
+		250E6A0122C75795000FAF64 /* UIView+NRCFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 250E69E922C75795000FAF64 /* UIView+NRCFrame.m */; };
+		250E6A0222C75795000FAF64 /* UIVew+NRCView.m in Sources */ = {isa = PBXBuildFile; fileRef = 250E69EA22C75795000FAF64 /* UIVew+NRCView.m */; };
+		250E6A0322C75795000FAF64 /* MBProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = 250E69EB22C75795000FAF64 /* MBProgressHUD.h */; };
+		250E6A0422C75795000FAF64 /* UIView+WZToast.h in Headers */ = {isa = PBXBuildFile; fileRef = 250E69EC22C75795000FAF64 /* UIView+WZToast.h */; };
+		250E6A0522C75795000FAF64 /* UIView+WZAlert.h in Headers */ = {isa = PBXBuildFile; fileRef = 250E69ED22C75795000FAF64 /* UIView+WZAlert.h */; };
+		250E6A0622C75795000FAF64 /* UIView+NRCFrame.h in Headers */ = {isa = PBXBuildFile; fileRef = 250E69EE22C75795000FAF64 /* UIView+NRCFrame.h */; };
+		250E6A0722C75795000FAF64 /* UIVew+NRCView.h in Headers */ = {isa = PBXBuildFile; fileRef = 250E69EF22C75795000FAF64 /* UIVew+NRCView.h */; };
 		257CFA81014BC0E19A5DD324967BE1EE /* Kiwi.h in Headers */ = {isa = PBXBuildFile; fileRef = A855999A2051929D4ACBF31C34308E91 /* Kiwi.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		25D7746457F35BFE484414FB4FEF02C1 /* KWBeSubclassOfClassMatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = F32D8CFE246F9B7ED61A4CEFD145A556 /* KWBeSubclassOfClassMatcher.m */; };
 		26D3EEFCFCA6DC9A4EB8EAD9703ECD98 /* FBSnapshotTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 458F39E1D00549EE553F257E1F6881A0 /* FBSnapshotTestCase.m */; };
@@ -320,30 +320,30 @@
 		218D04FB6C9B31BE7E8F5BE85B80395A /* KWPendingNode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWPendingNode.h; path = Classes/Nodes/KWPendingNode.h; sourceTree = "<group>"; };
 		247A96E926C9AE9AFC302777979C6904 /* NSInvocation+OCMAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSInvocation+OCMAdditions.m"; path = "Classes/Core/NSInvocation+OCMAdditions.m"; sourceTree = "<group>"; };
 		24FBB6038E964AA67AC953C6DE0AB0BD /* UIImage+Snapshot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Snapshot.h"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.h"; sourceTree = "<group>"; };
-		250E699122C755C5000FAF64 /* NSString+NRCString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+NRCString.h"; sourceTree = "<group>"; };
-		250E699222C755C5000FAF64 /* NSString+NRCString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+NRCString.m"; sourceTree = "<group>"; };
-		250E699422C755C5000FAF64 /* UILabel+NRCLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+NRCLabel.m"; sourceTree = "<group>"; };
-		250E699522C755C5000FAF64 /* UILabel+NRCLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+NRCLabel.h"; sourceTree = "<group>"; };
-		250E699722C755C5000FAF64 /* UIImageView+NRCImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+NRCImageView.m"; sourceTree = "<group>"; };
-		250E699822C755C5000FAF64 /* UIImageView+NRCImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+NRCImageView.h"; sourceTree = "<group>"; };
-		250E699A22C755C5000FAF64 /* UIView+WZAlert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+WZAlert.m"; sourceTree = "<group>"; };
-		250E699B22C755C5000FAF64 /* UIView+WZToast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+WZToast.m"; sourceTree = "<group>"; };
-		250E699C22C755C5000FAF64 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
-		250E699D22C755C5000FAF64 /* UIView+NRCFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+NRCFrame.m"; sourceTree = "<group>"; };
-		250E699E22C755C5000FAF64 /* UIVew+NRCView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIVew+NRCView.m"; sourceTree = "<group>"; };
-		250E699F22C755C5000FAF64 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
-		250E69A022C755C5000FAF64 /* UIView+WZToast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+WZToast.h"; sourceTree = "<group>"; };
-		250E69A122C755C5000FAF64 /* UIView+WZAlert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+WZAlert.h"; sourceTree = "<group>"; };
-		250E69A222C755C5000FAF64 /* UIView+NRCFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+NRCFrame.h"; sourceTree = "<group>"; };
-		250E69A322C755C5000FAF64 /* UIVew+NRCView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIVew+NRCView.h"; sourceTree = "<group>"; };
-		250E69A522C755C5000FAF64 /* UIButton+NRCButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+NRCButton.h"; sourceTree = "<group>"; };
-		250E69A622C755C5000FAF64 /* UIButton+NRCButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+NRCButton.m"; sourceTree = "<group>"; };
-		250E69A822C755C5000FAF64 /* UIImage+NRCImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+NRCImage.h"; sourceTree = "<group>"; };
-		250E69A922C755C5000FAF64 /* UIImage+NRCImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+NRCImage.m"; sourceTree = "<group>"; };
-		250E69AB22C755C5000FAF64 /* NSObject+NRCObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+NRCObject.h"; sourceTree = "<group>"; };
-		250E69AC22C755C5000FAF64 /* NSObject+NRCObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+NRCObject.m"; sourceTree = "<group>"; };
-		250E69AE22C755C5000FAF64 /* UIColor+NRCColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+NRCColor.h"; sourceTree = "<group>"; };
-		250E69AF22C755C5000FAF64 /* UIColor+NRCColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+NRCColor.m"; sourceTree = "<group>"; };
+		250E69D122C75794000FAF64 /* UILabel+NRCLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+NRCLabel.m"; sourceTree = "<group>"; };
+		250E69D222C75794000FAF64 /* UILabel+NRCLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+NRCLabel.h"; sourceTree = "<group>"; };
+		250E69D422C75795000FAF64 /* UIColor+NRCColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+NRCColor.h"; sourceTree = "<group>"; };
+		250E69D522C75795000FAF64 /* UIColor+NRCColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+NRCColor.m"; sourceTree = "<group>"; };
+		250E69D722C75795000FAF64 /* UIButton+NRCButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+NRCButton.h"; sourceTree = "<group>"; };
+		250E69D822C75795000FAF64 /* UIButton+NRCButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+NRCButton.m"; sourceTree = "<group>"; };
+		250E69DA22C75795000FAF64 /* UIImageView+NRCImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+NRCImageView.m"; sourceTree = "<group>"; };
+		250E69DB22C75795000FAF64 /* UIImageView+NRCImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+NRCImageView.h"; sourceTree = "<group>"; };
+		250E69DD22C75795000FAF64 /* UIImage+NRCImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+NRCImage.h"; sourceTree = "<group>"; };
+		250E69DE22C75795000FAF64 /* UIImage+NRCImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+NRCImage.m"; sourceTree = "<group>"; };
+		250E69E022C75795000FAF64 /* NSObject+NRCObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+NRCObject.h"; sourceTree = "<group>"; };
+		250E69E122C75795000FAF64 /* NSObject+NRCObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+NRCObject.m"; sourceTree = "<group>"; };
+		250E69E322C75795000FAF64 /* NSString+NRCString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+NRCString.h"; sourceTree = "<group>"; };
+		250E69E422C75795000FAF64 /* NSString+NRCString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+NRCString.m"; sourceTree = "<group>"; };
+		250E69E622C75795000FAF64 /* UIView+WZAlert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+WZAlert.m"; sourceTree = "<group>"; };
+		250E69E722C75795000FAF64 /* UIView+WZToast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+WZToast.m"; sourceTree = "<group>"; };
+		250E69E822C75795000FAF64 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		250E69E922C75795000FAF64 /* UIView+NRCFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+NRCFrame.m"; sourceTree = "<group>"; };
+		250E69EA22C75795000FAF64 /* UIVew+NRCView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIVew+NRCView.m"; sourceTree = "<group>"; };
+		250E69EB22C75795000FAF64 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		250E69EC22C75795000FAF64 /* UIView+WZToast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+WZToast.h"; sourceTree = "<group>"; };
+		250E69ED22C75795000FAF64 /* UIView+WZAlert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+WZAlert.h"; sourceTree = "<group>"; };
+		250E69EE22C75795000FAF64 /* UIView+NRCFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+NRCFrame.h"; sourceTree = "<group>"; };
+		250E69EF22C75795000FAF64 /* UIVew+NRCView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIVew+NRCView.h"; sourceTree = "<group>"; };
 		2518DE5B6BB45254418854D87C71EDB9 /* KWExistVerifier.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWExistVerifier.h; path = Classes/Verifiers/KWExistVerifier.h; sourceTree = "<group>"; };
 		252794F0F790EE0847109CD63528C0FB /* KWStringPrefixMatcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KWStringPrefixMatcher.m; path = Classes/Matchers/KWStringPrefixMatcher.m; sourceTree = "<group>"; };
 		25ECEF1BA7AD881D1B78886DADCC17BB /* KiwiConfiguration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KiwiConfiguration.h; path = Classes/Core/KiwiConfiguration.h; sourceTree = "<group>"; };
@@ -634,92 +634,92 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		250E699022C755C5000FAF64 /* NRCString */ = {
+		250E69D022C75794000FAF64 /* NRCLabel */ = {
 			isa = PBXGroup;
 			children = (
-				250E699122C755C5000FAF64 /* NSString+NRCString.h */,
-				250E699222C755C5000FAF64 /* NSString+NRCString.m */,
-			);
-			name = NRCString;
-			path = BYCCategory/Classes/NRCString;
-			sourceTree = "<group>";
-		};
-		250E699322C755C5000FAF64 /* NRCLabel */ = {
-			isa = PBXGroup;
-			children = (
-				250E699422C755C5000FAF64 /* UILabel+NRCLabel.m */,
-				250E699522C755C5000FAF64 /* UILabel+NRCLabel.h */,
+				250E69D122C75794000FAF64 /* UILabel+NRCLabel.m */,
+				250E69D222C75794000FAF64 /* UILabel+NRCLabel.h */,
 			);
 			name = NRCLabel;
 			path = BYCCategory/Classes/NRCLabel;
 			sourceTree = "<group>";
 		};
-		250E699622C755C5000FAF64 /* NRCImageView */ = {
+		250E69D322C75795000FAF64 /* NRCColor */ = {
 			isa = PBXGroup;
 			children = (
-				250E699722C755C5000FAF64 /* UIImageView+NRCImageView.m */,
-				250E699822C755C5000FAF64 /* UIImageView+NRCImageView.h */,
+				250E69D422C75795000FAF64 /* UIColor+NRCColor.h */,
+				250E69D522C75795000FAF64 /* UIColor+NRCColor.m */,
 			);
-			name = NRCImageView;
-			path = BYCCategory/Classes/NRCImageView;
+			name = NRCColor;
+			path = BYCCategory/Classes/NRCColor;
 			sourceTree = "<group>";
 		};
-		250E699922C755C5000FAF64 /* NRCView */ = {
+		250E69D622C75795000FAF64 /* NRCButton */ = {
 			isa = PBXGroup;
 			children = (
-				250E699A22C755C5000FAF64 /* UIView+WZAlert.m */,
-				250E699B22C755C5000FAF64 /* UIView+WZToast.m */,
-				250E699C22C755C5000FAF64 /* MBProgressHUD.m */,
-				250E699D22C755C5000FAF64 /* UIView+NRCFrame.m */,
-				250E699E22C755C5000FAF64 /* UIVew+NRCView.m */,
-				250E699F22C755C5000FAF64 /* MBProgressHUD.h */,
-				250E69A022C755C5000FAF64 /* UIView+WZToast.h */,
-				250E69A122C755C5000FAF64 /* UIView+WZAlert.h */,
-				250E69A222C755C5000FAF64 /* UIView+NRCFrame.h */,
-				250E69A322C755C5000FAF64 /* UIVew+NRCView.h */,
-			);
-			name = NRCView;
-			path = BYCCategory/Classes/NRCView;
-			sourceTree = "<group>";
-		};
-		250E69A422C755C5000FAF64 /* NRCButton */ = {
-			isa = PBXGroup;
-			children = (
-				250E69A522C755C5000FAF64 /* UIButton+NRCButton.h */,
-				250E69A622C755C5000FAF64 /* UIButton+NRCButton.m */,
+				250E69D722C75795000FAF64 /* UIButton+NRCButton.h */,
+				250E69D822C75795000FAF64 /* UIButton+NRCButton.m */,
 			);
 			name = NRCButton;
 			path = BYCCategory/Classes/NRCButton;
 			sourceTree = "<group>";
 		};
-		250E69A722C755C5000FAF64 /* NRCImage */ = {
+		250E69D922C75795000FAF64 /* NRCImageView */ = {
 			isa = PBXGroup;
 			children = (
-				250E69A822C755C5000FAF64 /* UIImage+NRCImage.h */,
-				250E69A922C755C5000FAF64 /* UIImage+NRCImage.m */,
+				250E69DA22C75795000FAF64 /* UIImageView+NRCImageView.m */,
+				250E69DB22C75795000FAF64 /* UIImageView+NRCImageView.h */,
+			);
+			name = NRCImageView;
+			path = BYCCategory/Classes/NRCImageView;
+			sourceTree = "<group>";
+		};
+		250E69DC22C75795000FAF64 /* NRCImage */ = {
+			isa = PBXGroup;
+			children = (
+				250E69DD22C75795000FAF64 /* UIImage+NRCImage.h */,
+				250E69DE22C75795000FAF64 /* UIImage+NRCImage.m */,
 			);
 			name = NRCImage;
 			path = BYCCategory/Classes/NRCImage;
 			sourceTree = "<group>";
 		};
-		250E69AA22C755C5000FAF64 /* NRCObject */ = {
+		250E69DF22C75795000FAF64 /* NRCObject */ = {
 			isa = PBXGroup;
 			children = (
-				250E69AB22C755C5000FAF64 /* NSObject+NRCObject.h */,
-				250E69AC22C755C5000FAF64 /* NSObject+NRCObject.m */,
+				250E69E022C75795000FAF64 /* NSObject+NRCObject.h */,
+				250E69E122C75795000FAF64 /* NSObject+NRCObject.m */,
 			);
 			name = NRCObject;
 			path = BYCCategory/Classes/NRCObject;
 			sourceTree = "<group>";
 		};
-		250E69AD22C755C5000FAF64 /* NRCColor */ = {
+		250E69E222C75795000FAF64 /* NRCString */ = {
 			isa = PBXGroup;
 			children = (
-				250E69AE22C755C5000FAF64 /* UIColor+NRCColor.h */,
-				250E69AF22C755C5000FAF64 /* UIColor+NRCColor.m */,
+				250E69E322C75795000FAF64 /* NSString+NRCString.h */,
+				250E69E422C75795000FAF64 /* NSString+NRCString.m */,
 			);
-			name = NRCColor;
-			path = BYCCategory/Classes/NRCColor;
+			name = NRCString;
+			path = BYCCategory/Classes/NRCString;
+			sourceTree = "<group>";
+		};
+		250E69E522C75795000FAF64 /* NRCView */ = {
+			isa = PBXGroup;
+			children = (
+				250E69E622C75795000FAF64 /* UIView+WZAlert.m */,
+				250E69E722C75795000FAF64 /* UIView+WZToast.m */,
+				250E69E822C75795000FAF64 /* MBProgressHUD.m */,
+				250E69E922C75795000FAF64 /* UIView+NRCFrame.m */,
+				250E69EA22C75795000FAF64 /* UIVew+NRCView.m */,
+				250E69EB22C75795000FAF64 /* MBProgressHUD.h */,
+				250E69EC22C75795000FAF64 /* UIView+WZToast.h */,
+				250E69ED22C75795000FAF64 /* UIView+WZAlert.h */,
+				250E69EE22C75795000FAF64 /* UIView+NRCFrame.h */,
+				250E69EF22C75795000FAF64 /* UIVew+NRCView.h */,
+			);
+			name = NRCView;
+			path = BYCCategory/Classes/NRCView;
 			sourceTree = "<group>";
 		};
 		2F773C292FD794BD81D3F7ABC012958B /* SwiftSupport */ = {
@@ -733,14 +733,14 @@
 		4DA4821BD46D3C68B900C98D22630613 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				250E69A422C755C5000FAF64 /* NRCButton */,
-				250E69AD22C755C5000FAF64 /* NRCColor */,
-				250E69A722C755C5000FAF64 /* NRCImage */,
-				250E699622C755C5000FAF64 /* NRCImageView */,
-				250E699322C755C5000FAF64 /* NRCLabel */,
-				250E69AA22C755C5000FAF64 /* NRCObject */,
-				250E699022C755C5000FAF64 /* NRCString */,
-				250E699922C755C5000FAF64 /* NRCView */,
+				250E69D622C75795000FAF64 /* NRCButton */,
+				250E69D322C75795000FAF64 /* NRCColor */,
+				250E69DC22C75795000FAF64 /* NRCImage */,
+				250E69D922C75795000FAF64 /* NRCImageView */,
+				250E69D022C75794000FAF64 /* NRCLabel */,
+				250E69DF22C75795000FAF64 /* NRCObject */,
+				250E69E222C75795000FAF64 /* NRCString */,
+				250E69E522C75795000FAF64 /* NRCView */,
 				2B81AF46CFD7C2B61D2438E075E01553 /* BYCCategory.podspec */,
 				B66DCAD8241BEA2A30398D10A77C05A9 /* LICENSE */,
 				68785C5E536E05B5DC3F16660D511257 /* README.md */,
@@ -1104,19 +1104,19 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				250E69B522C755C5000FAF64 /* UIImageView+NRCImageView.h in Headers */,
-				250E69BE22C755C5000FAF64 /* UIView+NRCFrame.h in Headers */,
-				250E69C022C755C5000FAF64 /* UIButton+NRCButton.h in Headers */,
-				250E69C422C755C5000FAF64 /* NSObject+NRCObject.h in Headers */,
+				250E69F122C75795000FAF64 /* UILabel+NRCLabel.h in Headers */,
+				250E6A0722C75795000FAF64 /* UIVew+NRCView.h in Headers */,
+				250E69FA22C75795000FAF64 /* NSObject+NRCObject.h in Headers */,
+				250E6A0522C75795000FAF64 /* UIView+WZAlert.h in Headers */,
 				4DB5C41BC62044190DCFE75557F30F54 /* BYCCategory-umbrella.h in Headers */,
-				250E69C622C755C5000FAF64 /* UIColor+NRCColor.h in Headers */,
-				250E69BC22C755C5000FAF64 /* UIView+WZToast.h in Headers */,
-				250E69BB22C755C5000FAF64 /* MBProgressHUD.h in Headers */,
-				250E69BF22C755C5000FAF64 /* UIVew+NRCView.h in Headers */,
-				250E69B022C755C5000FAF64 /* NSString+NRCString.h in Headers */,
-				250E69BD22C755C5000FAF64 /* UIView+WZAlert.h in Headers */,
-				250E69B322C755C5000FAF64 /* UILabel+NRCLabel.h in Headers */,
-				250E69C222C755C5000FAF64 /* UIImage+NRCImage.h in Headers */,
+				250E69F422C75795000FAF64 /* UIButton+NRCButton.h in Headers */,
+				250E6A0622C75795000FAF64 /* UIView+NRCFrame.h in Headers */,
+				250E6A0422C75795000FAF64 /* UIView+WZToast.h in Headers */,
+				250E6A0322C75795000FAF64 /* MBProgressHUD.h in Headers */,
+				250E69F722C75795000FAF64 /* UIImageView+NRCImageView.h in Headers */,
+				250E69F822C75795000FAF64 /* UIImage+NRCImage.h in Headers */,
+				250E69F222C75795000FAF64 /* UIColor+NRCColor.h in Headers */,
+				250E69FC22C75795000FAF64 /* NSString+NRCString.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1453,19 +1453,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				250E69B222C755C5000FAF64 /* UILabel+NRCLabel.m in Sources */,
-				250E69B422C755C5000FAF64 /* UIImageView+NRCImageView.m in Sources */,
-				250E69B122C755C5000FAF64 /* NSString+NRCString.m in Sources */,
-				250E69B722C755C5000FAF64 /* UIView+WZToast.m in Sources */,
-				250E69C522C755C5000FAF64 /* NSObject+NRCObject.m in Sources */,
-				250E69C722C755C5000FAF64 /* UIColor+NRCColor.m in Sources */,
+				250E69F322C75795000FAF64 /* UIColor+NRCColor.m in Sources */,
 				24930B7D3C688B27639E111B3407DEC5 /* BYCCategory-dummy.m in Sources */,
-				250E69BA22C755C5000FAF64 /* UIVew+NRCView.m in Sources */,
-				250E69B622C755C5000FAF64 /* UIView+WZAlert.m in Sources */,
-				250E69C122C755C5000FAF64 /* UIButton+NRCButton.m in Sources */,
-				250E69C322C755C5000FAF64 /* UIImage+NRCImage.m in Sources */,
-				250E69B922C755C5000FAF64 /* UIView+NRCFrame.m in Sources */,
-				250E69B822C755C5000FAF64 /* MBProgressHUD.m in Sources */,
+				250E6A0122C75795000FAF64 /* UIView+NRCFrame.m in Sources */,
+				250E69F022C75795000FAF64 /* UILabel+NRCLabel.m in Sources */,
+				250E69F622C75795000FAF64 /* UIImageView+NRCImageView.m in Sources */,
+				250E6A0022C75795000FAF64 /* MBProgressHUD.m in Sources */,
+				250E69FD22C75795000FAF64 /* NSString+NRCString.m in Sources */,
+				250E6A0222C75795000FAF64 /* UIVew+NRCView.m in Sources */,
+				250E69F522C75795000FAF64 /* UIButton+NRCButton.m in Sources */,
+				250E69FE22C75795000FAF64 /* UIView+WZAlert.m in Sources */,
+				250E69FB22C75795000FAF64 /* NSObject+NRCObject.m in Sources */,
+				250E69F922C75795000FAF64 /* UIImage+NRCImage.m in Sources */,
+				250E69FF22C75795000FAF64 /* UIView+WZToast.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
