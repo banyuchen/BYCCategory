@@ -1,0 +1,6 @@
+framework module BYCCategory {
+  umbrella header "BYCCategory-umbrella.h"
+
+  export *
+  module * { export * }
+}

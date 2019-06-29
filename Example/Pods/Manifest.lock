@@ -1,0 +1,31 @@
+PODS:
+  - BYCCategory (0.1.0)
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - Kiwi (3.0.0)
+
+DEPENDENCIES:
+  - BYCCategory (from `../`)
+  - FBSnapshotTestCase
+  - Kiwi
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - FBSnapshotTestCase
+    - Kiwi
+
+EXTERNAL SOURCES:
+  BYCCategory:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  BYCCategory: fd8ab04c55f99597bc9ea0f89ec8b2a8157cebe0
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  Kiwi: fbeafef0f00e4d8f7dcb3420a4930afe70af77f7
+
+PODFILE CHECKSUM: 0f0d08dbbecdf70962ebd77fca099ceffda7e485
+
+COCOAPODS: 1.6.1
