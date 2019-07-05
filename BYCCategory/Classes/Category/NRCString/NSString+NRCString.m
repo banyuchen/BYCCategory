@@ -322,4 +322,22 @@
 	NSString *numberString = [number stringByReplacingCharactersInRange:NSMakeRange(3, 4) withString:@"****"];
 	return numberString;
 }
+
+// 获取 bundle version版本号
++ (NSString*) getLocalAppVersion{
+	return [[[NSBundle mainBundle] infoDictionary] objectForKey:@"CFBundleShortVersionString"];
+}
+
+//获取BundleID
++ (NSString*) getBundleID{
+	return [[[NSBundle mainBundle] infoDictionary] objectForKey:@"CFBundleIdentifier"];
+}
+
+// 获取app的名字
++(NSString*) getAppName{
+	
+	NSString *appName = [[[NSBundle mainBundle] infoDictionary] objectForKey:@"CFBundleDisplayName"];
+	return appName;
+}
+
 @end

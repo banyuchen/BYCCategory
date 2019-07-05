@@ -141,6 +141,16 @@ NS_ASSUME_NONNULL_BEGIN
  * 隐藏手机号码中间的四位数字
  */
 + (NSString *)numberSuitScanf:(NSString*)number;
+
+// 获取 bundle version版本号
++ (NSString*) getLocalAppVersion;
+
+//获取BundleID
++ (NSString*) getBundleID;
+
+// 获取app的名字
++ (NSString*) getAppName;
+
 @end
 
 NS_ASSUME_NONNULL_END
