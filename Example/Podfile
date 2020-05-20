@@ -7,8 +7,5 @@ target 'BYCCategory_Example' do
 
   target 'BYCCategory_Tests' do
     inherit! :search_paths
-
-    pod 'Kiwi'
-    pod 'FBSnapshotTestCase'
   end
 end

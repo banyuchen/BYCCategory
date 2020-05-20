@@ -1,8 +1,8 @@
 {
   "name": "BYCCategory",
-  "version": "0.1.0",
-  "summary": "A short description of BYCCategory.",
-  "description": "TODO: Add long description of the pod here.",
+  "version": "0.1.1",
+  "summary": "it is my pod Demo",
+  "description": "it is my pod Demo",
   "homepage": "https://github.com/banyuchen/BYCCategory",
   "license": {
     "type": "MIT",
@@ -13,10 +13,11 @@
   },
   "source": {
     "git": "https://github.com/banyuchen/BYCCategory.git",
-    "tag": "0.1.0"
+    "tag": "0.1.1"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "BYCCategory/Classes/**/*"
+  "source_files": "BYCCategory/Classes/**/*",
+  "frameworks": "UIKit"
 }

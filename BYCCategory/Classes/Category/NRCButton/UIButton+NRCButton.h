@@ -13,7 +13,7 @@ NS_ASSUME_NONNULL_BEGIN
 @interface UIButton (NRCButton)
 
 /**
- 上部分是图片，下部分是文字
+ 上部分是图片，下部分是文字 测试
  @param space 间距
  */
 - (void)setUpImageAndDownLableWithSpace:(CGFloat)space;
