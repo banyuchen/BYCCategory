@@ -38,5 +38,21 @@ it is my pod Demo
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   s.frameworks = 'UIKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  
+  s.subspec 'BYCCategory' do |ss|
+  
+    ss.source_files = "BYCCategory/SensorsAnalyticsSDK/**/*.{h,m,mm}"
+    ss.public_header_files = "BYCCategory/SensorsAnalyticsSDK/SensorsAnalyticsSDK.h","SensorsAnalyticsSDK/SAAppExtensionDataManager.h","SensorsAnalyticsSDK/SASecurityPolicy.h","SensorsAnalyticsSDK/SAConfigOptions.h","SensorsAnalyticsSDK/SAConstants.h"
+    ss.resource = 'BYCCategory/SensorsAnalyticsSDK/SensorsAnalyticsSDK.bundle'
+    # 禁用 UIWebView
+    ss.subspec 'DISABLE_UIWEBVIEW' do |f|
+      # 需要使用 WKWebView，支持最低版本为 iOS 8
+      f.platform = :ios, "8.0"
+      f.dependency 'BYCCategory/SensorsAnalyticsSDK/core'
+      f.pod_target_xcconfig = { 'GCC_PREPROCESSOR_DEFINITIONS' => 'SENSORS_ANALYTICS_DISABLE_UIWEBVIEW=1'}
+    end
+  end
+
+  
+   s.dependency 'SensorsAnalyticsSDK'
 end
