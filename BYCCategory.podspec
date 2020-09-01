@@ -39,5 +39,5 @@ it is my pod Demo
   # s.public_header_files = 'Pod/Classes/**/*.h'
   s.frameworks = 'UIKit'
   
-  s.dependency 'SensorsAnalyticsSDK'
+  s.dependency 'SensorsAnalyticsSDK', '->2.1.5'
 end
