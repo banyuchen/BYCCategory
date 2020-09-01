@@ -41,9 +41,8 @@ it is my pod Demo
   
   s.subspec 'BYCCategory' do |ss|
   
-    ss.source_files = "BYCCategory/SensorsAnalyticsSDK/**/*.{h,m,mm}"
-    ss.public_header_files = "BYCCategory/SensorsAnalyticsSDK/SensorsAnalyticsSDK.h","SensorsAnalyticsSDK/SAAppExtensionDataManager.h","SensorsAnalyticsSDK/SASecurityPolicy.h","SensorsAnalyticsSDK/SAConfigOptions.h","SensorsAnalyticsSDK/SAConstants.h"
-    ss.resource = 'BYCCategory/SensorsAnalyticsSDK/SensorsAnalyticsSDK.bundle'
+    ss.source_files = "BYCCategory/**/*.{h,m,mm}"
+    ss.public_header_files = "BYCCategory/*.{h}"
     # 禁用 UIWebView
     ss.subspec 'DISABLE_UIWEBVIEW' do |f|
       # 需要使用 WKWebView，支持最低版本为 iOS 8
