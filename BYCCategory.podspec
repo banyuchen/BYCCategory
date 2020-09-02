@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'BYCCategory'
-  s.version          = '0.1.15'
+  s.version          = '0.1.16'
   s.summary          = 'it is my pod Demo'
 
   s.homepage         = 'https://github.com/banyuchen/BYCCategory'
@@ -18,7 +18,6 @@ Pod::Spec.new do |s|
   s.source           = { :git => 'https://github.com/banyuchen/BYCCategory.git', :tag => s.version.to_s }
   
   s.platform = :ios, "8.0"
-  s.default_subspec = 'core'
   s.frameworks = 'UIKit', 'Foundation', 'SystemConfiguration', 'CoreTelephony', 'CoreGraphics', 'QuartzCore', 'CoreLocation', 'CoreMotion'
   s.libraries = 'icucore', 'sqlite3', 'z'
   
