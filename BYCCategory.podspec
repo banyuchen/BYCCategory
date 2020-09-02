@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
   s.source           = { :git => 'https://github.com/banyuchen/BYCCategory.git', :tag => s.version.to_s }
   
   s.platform = :ios, "8.0"
-  s.default_subspec = 'core'
+#  s.default_subspec = 'core'
   s.frameworks = 'UIKit', 'Foundation', 'SystemConfiguration', 'CoreTelephony', 'CoreGraphics', 'QuartzCore', 'CoreLocation', 'CoreMotion'
   s.libraries = 'icucore', 'sqlite3', 'z'
 
@@ -31,7 +31,7 @@ Pod::Spec.new do |s|
   s.subspec 'DISABLE_UIWEBVIEW' do |f|
     # 需要使用 WKWebView，支持最低版本为 iOS 8
     f.platform = :ios, "8.0"
-    f.dependency 'BYCCategory/core'
+    f.dependency 'BYCCategory'
     f.pod_target_xcconfig = { 'GCC_PREPROCESSOR_DEFINITIONS' => 'SENSORS_ANALYTICS_DISABLE_UIWEBVIEW=1'}
   end
   
