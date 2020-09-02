@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'BYCCategory'
-  s.version          = '0.1.9'
+  s.version          = '0.1.10'
   s.summary          = 'it is my pod Demo'
 
 # This description is used to generate tags and improve search results.
@@ -46,5 +46,6 @@ it is my pod Demo
   # s.public_header_files = 'Pod/Classes/**/*.h'
   s.frameworks = 'UIKit'
   
-  s.dependency 'SensorsAnalyticsSDK', '->2.1.5', :subspecs => ['DISABLE_UIWEBVIEW']
+  s.dependency 'SensorsAnalyticsSDK', '2.1.0'
+  s.dependency "SensorsAnalyticsSDK/DISABLE_UIWEBVIEW"
 end
