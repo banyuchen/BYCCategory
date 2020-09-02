@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'BYCCategory'
-  s.version          = '0.1.16'
+  s.version          = '1.0.1'
   s.summary          = 'it is my pod Demo'
 
   s.homepage         = 'https://github.com/banyuchen/BYCCategory'
