@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'BYCCategory'
-  s.version          = '0.1.14'
+  s.version          = '0.1.15'
   s.summary          = 'it is my pod Demo'
 
   s.homepage         = 'https://github.com/banyuchen/BYCCategory'
@@ -18,14 +18,9 @@ Pod::Spec.new do |s|
   s.source           = { :git => 'https://github.com/banyuchen/BYCCategory.git', :tag => s.version.to_s }
   
   s.platform = :ios, "8.0"
-#  s.default_subspec = 'core'
+  s.default_subspec = 'core'
   s.frameworks = 'UIKit', 'Foundation', 'SystemConfiguration', 'CoreTelephony', 'CoreGraphics', 'QuartzCore', 'CoreLocation', 'CoreMotion'
   s.libraries = 'icucore', 'sqlite3', 'z'
-
-  s.subspec 'core' do |c|
-    c.source_files  =  "BYCCategory/**/*.{h,m}"
-    c.resource = 'BYCCategory/BYCCategory.bundle'
-  end
   
   # 禁用 UIWebView
   s.subspec 'DISABLE_UIWEBVIEW' do |f|
