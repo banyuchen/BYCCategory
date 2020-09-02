@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'BYCCategory'
-  s.version          = '0.1.7'
+  s.version          = '0.1.8'
   s.summary          = 'it is my pod Demo'
 
 # This description is used to generate tags and improve search results.
@@ -31,6 +31,13 @@ it is my pod Demo
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'BYCCategory/Classes/**/*'
+  
+  # 禁用 UIWebView
+  s.subspec 'DISABLE_UIWEBVIEW' do |f|
+    # 需要使用 WKWebView，支持最低版本为 iOS 8
+    f.platform = :ios, "8.0"
+    f.pod_target_xcconfig = { 'GCC_PREPROCESSOR_DEFINITIONS' => 'SENSORS_ANALYTICS_DISABLE_UIWEBVIEW=1'}
+  end
   
   # s.resource_bundles = {
   #   'BYCCategory' => ['BYCCategory/Assets/*.png']
